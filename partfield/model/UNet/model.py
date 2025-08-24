@@ -23,7 +23,7 @@
 
 import torch.nn as nn
 
-from partfield.model.UNet.buildingblocks import DoubleConv, ResNetBlock, \
+from third_partys.PartField.partfield.model.UNet.buildingblocks import DoubleConv, ResNetBlock, \
     create_decoders, create_encoders
 
 def number_of_features_per_level(init_channel_number, num_levels):
